@@ -10,7 +10,7 @@ body {
 
 #wrapper {
    width: 100%;
-   height: 100vh;
+   min-height: 100vh;
    background-color: #1f2937;
    color: #f9faf8;
    display: flex;
@@ -50,14 +50,13 @@ body {
    display: flex;
    gap: 60px;
    width: 1000px;
-   height: 500px;
-   padding-top: 100px;
-   ;
+   height: 225px;
+   padding: 120px 0;
 }
 
 .hero-text {
    width: 450px;
-   height: auto;
+   height: 225px;
 }
 
 .hero-text h1 {
@@ -89,4 +88,47 @@ body {
    border: none;
    border-radius: 8px;
    margin-top: 12px;
+}
+
+/* info section */
+.information {
+   height: 500px;
+   width: 100%;
+   background-color: white;
+}
+
+.information h2 {
+   color: #1f2937;
+   font-size: 36px;
+   text-align: center;
+   margin: 50px 0;
+}
+
+.info-cards {
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   width: 166px;
+   text-align: center;
+   gap: 10px;
+}
+
+.info-image {
+   height: 160px;
+   width: 160px;
+   border: 3px solid #3882f6;
+   border-radius: 18px;
+   object-fit: cover;
+}
+
+.image-caption {
+   color: #46505e;
+   font-size: 18px;
+   font-weight: 400;
+   margin: 0;
 }
