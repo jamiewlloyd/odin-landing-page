@@ -132,3 +132,31 @@ body {
    font-weight: 400;
    margin: 0;
 }
+
+/* Quote */
+.quote {
+   width: 100%;
+   background-color: #e5e7eb;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #1F2937;
+   padding: 115px 0;
+}
+
+.main-quote {
+   max-width: 780px;
+   font-size: 36px;
+   font-weight: 300;
+   font-style: italic;
+   margin: 0;
+}
+
+.author {
+   width: 700px;
+   font-size: 23px;
+   font-weight: bold;
+   text-align: right;
+   margin: 0;
+}
